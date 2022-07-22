@@ -11,7 +11,7 @@ function App() {
         style={{
           width: '98.8vw',
           height: '100vh',
-          background: '#e6e6e6',
+          background: '#f2f2f2',
           display: 'flex',
           justifyContent: 'space-around',
           alignItems: 'center',
