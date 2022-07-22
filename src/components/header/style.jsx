@@ -13,31 +13,39 @@ export const Form = styled.form`
   display: flex;
   margin-left: 13px;
   align-items: center;
-
-  
 `
+
+export const LinksContainer = styled.div`
+  display: flex;
+   align-items: center;
+  justify-content: space-around;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+`
+
 export const Input = styled.input`
   display: flex;
   width: 20rem;
   height: 2.4rem;
+  border: solid 1px #cccccc;
   border-radius: 5px;
   padding-left: 10px;
-  `
-
+`
 
 export const Button = styled.button`
-display: flex;
-align-items: center;
-justify-content: center;
-width: 35px;
-height: 38px;
-margin-left: 3px;
-background: #e6e6e6;
-cursor: pointer;
-transition: ease 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 38px;
+  margin-left: 3px;
+  background: #e6e6e6;
+  cursor: pointer;
+  transition: ease 0.7s;
 
-&:hover{
-  background: darkgray;
-}
-
+  &:hover {
+    background: darkgray;
+  }
 `

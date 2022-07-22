@@ -10,17 +10,19 @@ function Header() {
         <Form>
           <Input type="search" name="search" placeholder="Search..." />
           <Button type="submit">
-            <img
-              src={lupa}
-              width="32"
-              alt="lupa"
-            />
+            <img src={lupa} width="32" alt="lupa" />
           </Button>
         </Form>
       </div>
-      <div style={{ display: 'flex', width: '25%' }}></div>
+      <div
+        style={{
+          display: 'flex',
+          width: '25%',
+        }}
+      ></div>
+      {/* <LinksContainer> */}
       <h3>HOME</h3>
-      <h3>REGISTER</h3>
+      {/* </LinksContainer> */}
     </Container>
   )
 }
