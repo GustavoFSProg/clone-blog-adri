@@ -13,7 +13,7 @@ export const Form = styled.form`
   display: flex;
   margin-left: 13px;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
 `
 
 export const LinksContainer = styled.div`
@@ -38,7 +38,6 @@ export const Input = styled.input`
     width: 12rem;
     height: 2.1rem;
     margin-left: -5px;
-
   }
 `
 
@@ -64,6 +63,16 @@ export const ImgLogo = styled.img`
   @media screen and (max-width: 800px) {
     width: 35px;
     height: 32px;
-    margin-left: 10px ;
+    margin-left: 10px;
+  }
+`
+
+export const ImgLupa = styled.img`
+  width: 32px;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `
