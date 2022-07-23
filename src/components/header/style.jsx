@@ -35,7 +35,7 @@ export const Input = styled.input`
   padding-left: 10px;
 
   @media screen and (max-width: 800px) {
-    width: 12rem;
+    width: 12.5rem;
     height: 2.1rem;
     margin-left: -5px;
   }
@@ -74,6 +74,6 @@ export const ImgLupa = styled.img`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -9px;
+    margin-top: -8px;
   }
 `
