@@ -8,10 +8,13 @@ function Header() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <ImgLogo src={logo} alt="logo" />
         <Form>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+
           <Input type="search" name="search" placeholder="Search..." />
           <Button type="submit">
-            <ImgLupa src={lupa} alt="lupa" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} />
+              <ImgLupa src={lupa} alt="lupa" />
           </Button>
+          </div>
         </Form>
       </div>
       <div
