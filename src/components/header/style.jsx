@@ -13,6 +13,7 @@ export const Form = styled.form`
   display: flex;
   margin-left: 13px;
   align-items: center;
+  justify-content: center ;
 `
 
 export const LinksContainer = styled.div`

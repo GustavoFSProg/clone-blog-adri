@@ -10,7 +10,7 @@ function Header() {
         <Form>
           <Input type="search" name="search" placeholder="Search..." />
           <Button type="submit">
-            <img src={lupa} width="32" alt="lupa" />
+            <img src={lupa} width="32" alt="lupa" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} />
           </Button>
         </Form>
       </div>
