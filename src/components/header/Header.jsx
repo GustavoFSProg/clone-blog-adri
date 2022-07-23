@@ -1,6 +1,6 @@
 import { Container, ImgLupa, ImgLogo, LinksContainer, Button, Input, Form } from './style'
 import logo from '../../assets/logo.png'
-import lupa from '../../assets/lupa.png'
+import { BsSearch } from 'react-icons/bs'
 
 function Header() {
   return (
@@ -11,9 +11,7 @@ function Header() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
           <Input type="search" name="search" placeholder="Search..." />
-          <Button type="submit">
-              <ImgLupa src={lupa} alt="lupa" />
-          </Button>
+            <BsSearch size="26" color="gray" style={{ marginLeft: '10px' }} />
           </div>
         </Form>
       </div>
