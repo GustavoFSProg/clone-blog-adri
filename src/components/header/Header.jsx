@@ -5,12 +5,12 @@ import lupa from '../../assets/lupa.png'
 function Header() {
   return (
     <Container>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <ImgLogo src={logo} alt="logo" />
         <Form>
           <Input type="search" name="search" placeholder="Search..." />
           <Button type="submit">
-            <img src={lupa} width="32" alt="lupa" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} />
+            <img src={lupa} width="32" alt="lupa" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} />
           </Button>
         </Form>
       </div>
@@ -21,7 +21,7 @@ function Header() {
         }}
       ></div>
       <LinksContainer>
-      <h3>HOME</h3>
+        <h3>HOME</h3>
       </LinksContainer>
     </Container>
   )
