@@ -17,7 +17,7 @@ export const Form = styled.form`
 
 export const LinksContainer = styled.div`
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: space-around;
 
   @media screen and (max-width: 800px) {
@@ -32,6 +32,13 @@ export const Input = styled.input`
   border: solid 1px #cccccc;
   border-radius: 5px;
   padding-left: 10px;
+
+  @media screen and (max-width: 800px) {
+    width: 12rem;
+    height: 2.1rem;
+    margin-left: -5px;
+
+  }
 `
 
 export const Button = styled.button`
@@ -47,5 +54,15 @@ export const Button = styled.button`
 
   &:hover {
     background: darkgray;
+  }
+`
+export const ImgLogo = styled.img`
+  width: 42px;
+  height: 40px;
+
+  @media screen and (max-width: 800px) {
+    width: 35px;
+    height: 32px;
+    margin-left: 10px ;
   }
 `

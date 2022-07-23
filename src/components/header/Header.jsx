@@ -1,4 +1,4 @@
-import { Container, Button, Input, Form } from './style'
+import { Container, ImgLogo, LinksContainer, Button, Input, Form } from './style'
 import logo from '../../assets/logo.png'
 import lupa from '../../assets/lupa.png'
 
@@ -6,7 +6,7 @@ function Header() {
   return (
     <Container>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={logo} alt="logo" width="42" height="40" />
+        <ImgLogo src={logo} alt="logo" />
         <Form>
           <Input type="search" name="search" placeholder="Search..." />
           <Button type="submit">
@@ -20,9 +20,9 @@ function Header() {
           width: '25%',
         }}
       ></div>
-      {/* <LinksContainer> */}
+      <LinksContainer>
       <h3>HOME</h3>
-      {/* </LinksContainer> */}
+      </LinksContainer>
     </Container>
   )
 }
