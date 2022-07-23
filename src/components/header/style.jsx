@@ -35,7 +35,7 @@ export const Input = styled.input`
   padding-left: 10px;
 
   @media screen and (max-width: 800px) {
-    width: 12.5rem;
+    width: 12.6rem;
     height: 2.1rem;
     margin-left: -5px;
   }
