@@ -12,8 +12,6 @@ function Header() {
     setIsButtonClicked('flex')
   }
 
-
-
   function handleDismissButtonClicked() {
     setIsButtonClicked('none')
   }
@@ -43,8 +41,6 @@ function Header() {
         onClick={() => handleLike()}
       >
         <MenuIcon />
-        {/* <ZoomOutIcon size="24" color="green" /> */}
-
       </Button>
 
       <LinksContainer>
@@ -56,8 +52,6 @@ function Header() {
           display: `${isButtonClicked}`,
           marginTop: '121px',
           marginLeft: '-280px',
-
-
         }}
       >
         <div
@@ -66,19 +60,20 @@ function Header() {
             width: '18rem',
             alignItems: 'center',
             justifyContent: 'center',
-
-
           }}
         >
-
           <Input
             onMouseLeave={() => handleDismissButtonClicked()}
-            onMouseEnter={() => handleLike()} style={{ width: '14rem' }} type="search" name="search" placeholder="Search..." />
+            onMouseEnter={() => handleLike()}
+            style={{ width: '14rem' }}
+            type="search"
+            name="search"
+            placeholder="Search..."
+          />
 
           <BsSearch size="26" color="gray" style={{ marginLeft: '8px' }} />
         </div>
       </FormDois>
-
     </Container>
   )
 }

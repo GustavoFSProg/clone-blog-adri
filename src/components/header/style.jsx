@@ -24,14 +24,12 @@ export const FormDois = styled.form`
   display: flex;
   align-items: flex-start;
   justify-content: left;
-  
 `
 
 export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 
   @media screen and (max-width: 800px) {
     display: none;
@@ -62,8 +60,8 @@ export const Button = styled.button`
     width: 35px;
     height: 38px;
     margin-left: 3px;
-    /* cursor: pointer;
-    transition: ease 0.7s; */
+    cursor: pointer;
+    /*   transition: ease 0.7s; */
 
     &:hover {
       /* background: darkgray; */
