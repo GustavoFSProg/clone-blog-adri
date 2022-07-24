@@ -14,18 +14,24 @@ export const Form = styled.form`
   margin-left: 13px;
   align-items: center;
   justify-content: center;
-`
-
-export const LinksContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 
   @media screen and (max-width: 800px) {
     display: none;
   }
 `
 
+export const FormDois = styled.form`
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  
+`
+
+export const LinksContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`
 export const Input = styled.input`
   display: flex;
   width: 20rem;
@@ -42,18 +48,22 @@ export const Input = styled.input`
 `
 
 export const Button = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 38px;
-  margin-left: 3px;
-  background: #e6e6e6;
-  cursor: pointer;
-  transition: ease 0.7s;
+  display: none;
 
-  &:hover {
-    background: darkgray;
+  @media screen and (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 38px;
+    margin-left: 3px;
+    background: #e6e6e6;
+    cursor: pointer;
+    transition: ease 0.7s;
+
+    &:hover {
+      background: darkgray;
+    }
   }
 `
 export const ImgLogo = styled.img`
