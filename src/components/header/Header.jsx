@@ -2,6 +2,7 @@ import { Container, ImgLogo, LinksContainer, Button, Input, FormDois, Form } fro
 import logo from '../../assets/logo.png'
 import { BsSearch } from 'react-icons/bs'
 import { useState } from 'react'
+import MenuIcon from '@material-ui/icons/Menu'
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState('none')
@@ -40,7 +41,7 @@ function Header() {
         type="button"
         onClick={() => handleLike()}
       >
-        botao
+        <MenuIcon />
       </Button>
 
       <LinksContainer>
