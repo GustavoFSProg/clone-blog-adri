@@ -71,6 +71,7 @@ function Header() {
           />
 
           <BsSearch
+            onMouseLeave={() => handleDismissButtonClicked()}
             onMouseEnter={() => handleLike()}
             size="26" color="gray" style={{ marginLeft: '8px' }} />
         </div>
