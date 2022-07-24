@@ -51,8 +51,8 @@ function Header() {
       <FormDois
         style={{
           display: `${isButtonClicked}`,
-          marginTop: '120px',
-          marginLeft: '-500px',
+          marginTop: '121px',
+          marginLeft: '-280px',
 
 
         }}
@@ -70,7 +70,7 @@ function Header() {
 
           <Input
             onMouseLeave={() => handleDismissButtonClicked()}
-            onMouseEnter={() => handleLike()} style={{ width: '15rem' }} type="search" name="search" placeholder="Search..." />
+            onMouseEnter={() => handleLike()} style={{ width: '14rem' }} type="search" name="search" placeholder="Search..." />
 
           <BsSearch size="26" color="gray" style={{ marginLeft: '8px' }} />
         </div>

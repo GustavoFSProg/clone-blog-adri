@@ -31,6 +31,11 @@ export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `
 export const Input = styled.input`
   display: flex;
