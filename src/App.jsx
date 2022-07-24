@@ -21,7 +21,7 @@ function App() {
           <Sidebarleft />
         </div>
         <div
-          style={{ width: '95%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          style={{ color: 'black', width: '95%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
         >
           CENTER
         </div>

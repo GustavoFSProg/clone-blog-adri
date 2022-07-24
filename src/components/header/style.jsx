@@ -62,12 +62,11 @@ export const Button = styled.button`
     width: 35px;
     height: 38px;
     margin-left: 3px;
-    background: #e6e6e6;
-    cursor: pointer;
-    transition: ease 0.7s;
+    /* cursor: pointer;
+    transition: ease 0.7s; */
 
     &:hover {
-      background: darkgray;
+      /* background: darkgray; */
     }
   }
 `
