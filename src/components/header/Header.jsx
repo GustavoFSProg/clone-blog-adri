@@ -39,7 +39,7 @@ function Header() {
         type="button"
         onClick={() => handleLike()}
       >
-        <MenuIcon />
+        <MenuIcon size="25" />
       </Button>
 
       <LinksContainer>
@@ -70,7 +70,9 @@ function Header() {
             placeholder="Search..."
           />
 
-          <BsSearch size="26" color="gray" style={{ marginLeft: '8px' }} />
+          <BsSearch
+            onMouseEnter={() => handleLike()}
+            size="26" color="gray" style={{ marginLeft: '8px' }} />
         </div>
       </FormDois>
     </Container>
