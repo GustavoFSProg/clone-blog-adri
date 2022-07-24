@@ -39,7 +39,7 @@ function Header() {
         type="button"
         onClick={() => handleLike()}
       >
-        <MenuIcon size="25" />
+        <MenuIcon size="35" />
       </Button>
 
       <LinksContainer>
