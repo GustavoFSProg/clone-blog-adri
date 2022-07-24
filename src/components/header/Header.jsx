@@ -3,7 +3,6 @@ import logo from '../../assets/logo.png'
 import { BsSearch } from 'react-icons/bs'
 import { useState } from 'react'
 import MenuIcon from '@material-ui/icons/Menu'
-// import ZoomOutIcon from '@mui/icons-material/ZoomOut';
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState('none')

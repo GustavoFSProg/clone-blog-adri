@@ -61,6 +61,7 @@ export const Button = styled.button`
     height: 38px;
     margin-left: 3px;
     cursor: pointer;
+    background: none;
     /*   transition: ease 0.7s; */
 
     &:hover {
