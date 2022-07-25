@@ -86,8 +86,8 @@ function App() {
                 style={{
                   width: '160px',
                   fontFamily: 'Roboto',
-                  fontSize: '0.87rem',
-                  paddingBottom: '2px',
+                    fontSize: '0.86rem',
+                    paddingBottom: '1px',
                 }}
               >
                 Antonio Augusto
@@ -97,7 +97,7 @@ function App() {
                   width: '160px',
                   paddingBottom: '2px',
                   fontFamily: 'Roboto',
-                  fontSize: '0.77rem',
+                    fontSize: '0.76rem',
                 }}
               >
                 July 8
