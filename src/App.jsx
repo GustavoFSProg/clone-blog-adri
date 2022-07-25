@@ -31,6 +31,7 @@ function App() {
             justifyContent: 'center',
             alignItems: 'flex-start',
             flexDirection: 'column',
+            marginLeft: '28px'
           }}
         >
           <ContainerApp>
