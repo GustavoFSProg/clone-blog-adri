@@ -35,8 +35,11 @@ function App() {
 
         <ContainerApp>
           <ImgBody src={foto1} alt="foto1" />
-        </ContainerApp>
+          </ContainerApp>
+          <div style={{ display: 'flex', width: '90%', marginTop: '10px', justifyContent: 'left' }}>
+
           <ImgFace src={face} alt="face" />
+          </div>
         </div>
 
         <div>
