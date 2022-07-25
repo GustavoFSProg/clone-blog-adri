@@ -38,7 +38,7 @@ export const ImgFace = styled.img`
    width: 66px;
 
   @media screen and (max-width: 800px) {
-   margin-left: -14px;
+   margin-left: -10px;
    
   }
 `
