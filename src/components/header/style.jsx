@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #e6e6e6;
+  background: #f2f2f2;
   width: 100%;
-  height: 4.5rem;
+  height: 3.6rem;
   border-bottom: solid 1px #b3b3b3;
 `
 export const Form = styled.form`
@@ -44,7 +44,7 @@ export const Input = styled.input`
   padding-left: 10px;
 
   @media screen and (max-width: 800px) {
-    width: 12.6rem;
+    width: 100%;
     height: 2.1rem;
     margin-left: -5px;
   }

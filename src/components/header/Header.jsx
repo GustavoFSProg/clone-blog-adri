@@ -56,7 +56,7 @@ function Header() {
         <div
           style={{
             display: 'flex',
-            width: '18rem',
+            width: '17rem',
             alignItems: 'center',
             justifyContent: 'center',
           }}
@@ -64,7 +64,7 @@ function Header() {
           <Input
             onMouseLeave={() => handleDismissButtonClicked()}
             onMouseEnter={() => handleLike()}
-            style={{ width: '14rem' }}
+            // style={{ width: '14rem' }}
             type="search"
             name="search"
             placeholder="Search..."
