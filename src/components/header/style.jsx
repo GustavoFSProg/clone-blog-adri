@@ -67,11 +67,11 @@ export const Button = styled.button`
     margin-left: 3px;
     cursor: pointer;
     background: none;
+    border: none;
     /*   transition: ease 0.7s; */
 
     &:hover {
       /* background: darkgray; */
-    background: none;
 
     }
   }
