@@ -79,7 +79,7 @@ function App() {
                 flexDirection: 'column',
                 marginTop: '10px',
 
-                // marginLeft: '-6px',
+                  marginLeft: '-4px',
               }}
             >
               <span
