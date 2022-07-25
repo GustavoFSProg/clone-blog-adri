@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const ContainerApp = styled.div`
   color: black;
-  width: 95%;
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin-top: -26rem;
 

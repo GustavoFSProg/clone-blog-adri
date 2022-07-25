@@ -22,6 +22,7 @@ function App() {
         <div>
           <Sidebarleft />
         </div>
+
         <div
           style={{
             width: '99vw',
@@ -29,11 +30,22 @@ function App() {
             background: '#f2f2f2',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'flex-start',
             flexDirection: 'column',
-            marginLeft: '23px'
+            alignItems: 'center',
+
           }}
         >
+          <div
+            style={{
+              background: '#f2f2f2',
+              display: 'flex',
+              justifyContent: 'center',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
+
+            // marginLeft: '13px'
+          }}
+          >
           <ContainerApp>
             <ImgBody src={foto1} alt="foto1" />
           </ContainerApp>
@@ -41,7 +53,7 @@ function App() {
             style={{
               display: 'flex',
               flexDirection: 'row',
-              // alignItems: 'flex-start',
+                alignItems: 'flex-start',
               // marginRight: '30rem',
               justifyContent: 'left',
               marginLeft: '17px',
@@ -50,8 +62,10 @@ function App() {
           >
             <div
               style={{
-                display: 'flex', width: '90%', marginTop: '5px',
-                justifyContent: 'left'
+                  display: 'flex',
+                  width: '90%',
+                  marginTop: '5px',
+                  justifyContent: 'left',
               }}
             >
               <ImgFace src={face} alt="face" />
@@ -60,12 +74,12 @@ function App() {
             <div
               style={{
                 display: 'flex',
-                width: '90%',
-                // alignItems: 'center',
+                  width: '90%',
                 justifyContent: 'center',
                 flexDirection: 'column',
                 marginTop: '10px',
-                marginLeft: '-6px',
+
+                // marginLeft: '-6px',
               }}
             >
               <span
@@ -88,6 +102,7 @@ function App() {
               >
                 July 8
               </span>
+            </div>
             </div>
           </div>
         </div>
