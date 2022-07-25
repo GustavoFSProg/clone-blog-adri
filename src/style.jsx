@@ -31,13 +31,12 @@ export const ImgBody = styled.img`
 
   }
 `
-export const ImgLupa = styled.img`
-  width: 32px;
+export const ImgFace = styled.img`
+  margin-top: 25px;
+   margin-left: 15px;
 
   @media screen and (max-width: 800px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -8px;
+   margin-left: 5px;
+   
   }
 `
