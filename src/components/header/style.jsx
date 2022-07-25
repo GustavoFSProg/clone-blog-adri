@@ -48,9 +48,10 @@ export const Input = styled.input`
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 2.1rem;
-    margin-left: -5px;
+    margin-left: 0px;
     z-index: 9999;
     margin-top: 10px;
+    
   }
 `
 
