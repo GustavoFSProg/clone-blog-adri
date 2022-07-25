@@ -16,8 +16,10 @@ export const ContainerApp = styled.div`
   }
 `
 export const ImgBody = styled.img`
-  width: 710px;
+  /* width: 710px; */
   height: 325px;
+    width: 95%;
+
 
   display: flex;
   border-radius: 9px;
