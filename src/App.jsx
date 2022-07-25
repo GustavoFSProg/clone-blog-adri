@@ -13,7 +13,7 @@ function App() {
         style={{
           width: '98.8vw',
           height: '100vh',
-          background: 'white',
+          background: '#f2f2f2',
           display: 'flex',
           justifyContent: 'space-around',
           alignItems: 'center',
@@ -27,7 +27,7 @@ function App() {
           style={{
             width: '99vw',
             height: '100vh',
-            background: 'white',
+            background: '#f2f2f2',
             display: 'flex',
             justifyContent: 'center',
             flexDirection: 'column',
@@ -36,7 +36,7 @@ function App() {
         >
           <div
             style={{
-              background: 'white',
+              background: '#f2f2f2',
               display: 'flex',
               justifyContent: 'center',
               flexDirection: 'column',
