@@ -36,7 +36,7 @@ function App() {
         <ContainerApp>
           <ImgBody src={foto1} alt="foto1" />
         </ContainerApp>
-          <ImgFace src={face} alt="face" width="67" />
+          <ImgFace src={face} alt="face" />
         </div>
 
         <div>
