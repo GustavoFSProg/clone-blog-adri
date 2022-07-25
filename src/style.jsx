@@ -9,7 +9,7 @@ export const ContainerApp = styled.div`
   margin-top: -35rem;
 
   @media screen and (max-width: 800px) {
-      margin-top: -34.4rem;
+      /* margin-top: -34.4rem; */
 
   }
 `
@@ -20,7 +20,6 @@ export const ImgBody = styled.img`
   display: flex;
   border-radius: 9px;
   justify-content: center;
-  /* align-items: top; */
 
   @media screen and (max-width: 800px) {
     width: 100%;
