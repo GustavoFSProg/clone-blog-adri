@@ -43,66 +43,69 @@ function App() {
               flexDirection: 'column',
               alignItems: 'flex-start',
 
-            // marginLeft: '13px'
-          }}
-          >
-          <ContainerApp>
-            <ImgBody src={foto1} alt="foto1" />
-          </ContainerApp>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-                alignItems: 'flex-start',
-              // marginRight: '30rem',
-              justifyContent: 'left',
-              marginLeft: '17px',
-              marginTop: '11px',
+              // marginLeft: '13px'
             }}
           >
+            <ContainerApp>
+              <ImgBody src={foto1} alt="foto1" />
+            </ContainerApp>
             <div
               style={{
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'flex-start',
+                justifyContent: 'left',
+                marginLeft: '17px',
+                marginTop: '11px',
+              }}
+            >
+              <div
+                style={{
                   display: 'flex',
                   width: '90%',
                   marginTop: '5px',
                   justifyContent: 'left',
-              }}
-            >
-              <ImgFace src={face} alt="face" />
-            </div>
+                }}
+              >
+                <ImgFace src={face} alt="face" />
+              </div>
 
-            <div
-              style={{
-                display: 'flex',
+              <div
+                style={{
+                  display: 'flex',
                   width: '90%',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                marginTop: '10px',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginTop: '15px',
 
                   marginLeft: '-4px',
-              }}
-            >
-              <span
-                style={{
-                  width: '160px',
-                  fontFamily: 'Roboto',
-                    fontSize: '0.86rem',
+                }}
+              >
+                <span
+                  style={{
+                    width: '160px',
+                    fontFamily: 'Roboto',
+                    fontSize: '0.84rem',
                     paddingBottom: '1px',
-                }}
-              >
-                Antonio Augusto
-              </span>
-              <span
-                style={{
-                  width: '160px',
-                  paddingBottom: '2px',
-                  fontFamily: 'Roboto',
+                    color: '#595959'
+                  }}
+                >
+                  Antonio Augusto
+                </span>
+                <span
+                  style={{
+                    width: '160px',
+                    paddingBottom: '2px',
+                    fontFamily: 'Roboto',
                     fontSize: '0.76rem',
-                }}
-              >
-                July 8
-              </span>
-            </div>
+                    color: '#595959'
+
+
+                  }}
+                >
+                  July 8
+                </span>
+              </div>
             </div>
           </div>
         </div>
