@@ -50,6 +50,7 @@ export const Input = styled.input`
     height: 2.1rem;
     margin-left: -5px;
     z-index: 9999;
+    margin-top: 10px;
   }
 `
 
@@ -92,7 +93,6 @@ export const ImgLupa = styled.img`
     justify-content: center;
     margin-top: -8px;
     z-index: 9999;
-    background: green;
 
   }
 `
