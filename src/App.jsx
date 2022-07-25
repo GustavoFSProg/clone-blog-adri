@@ -3,7 +3,7 @@ import Sidebarleft from './components/sidebar-left/sidebar-left'
 import SidebarRight from './components/sidebar-right/sidebarRight'
 import foto1 from './assets/foto1.png'
 import face from './assets/face-icon.png'
-import { ContainerApp, ImgBody, ImgFace } from './style'
+import { ContainerApp, ImgBody, ImgFace, H1 } from './style'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         style={{
           width: '98.8vw',
           height: '100vh',
-          background: '#f2f2f2',
+          background: 'white',
           display: 'flex',
           justifyContent: 'space-around',
           alignItems: 'center',
@@ -27,7 +27,7 @@ function App() {
           style={{
             width: '99vw',
             height: '100vh',
-            background: '#f2f2f2',
+            background: 'white',
             display: 'flex',
             justifyContent: 'center',
             flexDirection: 'column',
@@ -36,7 +36,7 @@ function App() {
         >
           <div
             style={{
-              background: '#f2f2f2',
+              background: 'white',
               display: 'flex',
               justifyContent: 'center',
               flexDirection: 'column',
@@ -107,13 +107,13 @@ function App() {
             <div
               style={{
                 display: 'flex',
-                width: '70%',
+                width: '86%',
                 alignItems: 'center',
                 justifyContent: 'left',
                 marginLeft: '45px',
               }}
             >
-              <h1>DEVELOPMENT WITH REACT-JS</h1>
+              <H1 >DEVELOPMENT WITH REACT-JS</H1>
             </div>
           </div>
         </div>
