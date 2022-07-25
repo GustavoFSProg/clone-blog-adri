@@ -76,7 +76,7 @@ function App() {
                   width: '90%',
                   justifyContent: 'center',
                   flexDirection: 'column',
-                  marginTop: '15px',
+                  marginTop: '12px',
 
                   marginLeft: '-4px',
                 }}
