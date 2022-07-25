@@ -32,7 +32,6 @@ function App() {
             justifyContent: 'center',
             flexDirection: 'column',
             alignItems: 'center',
-
           }}
         >
           <div
@@ -87,7 +86,7 @@ function App() {
                     fontFamily: 'Roboto',
                     fontSize: '0.84rem',
                     paddingBottom: '1px',
-                    color: '#595959'
+                    color: '#595959',
                   }}
                 >
                   Antonio Augusto
@@ -98,14 +97,23 @@ function App() {
                     paddingBottom: '2px',
                     fontFamily: 'Roboto',
                     fontSize: '0.76rem',
-                    color: '#595959'
-
-
+                    color: '#595959',
                   }}
                 >
                   July 8
                 </span>
               </div>
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                width: '70%',
+                alignItems: 'center',
+                justifyContent: 'left',
+                marginLeft: '45px',
+              }}
+            >
+              <h1>DEVELOPMENT WITH REACT-JS</h1>
             </div>
           </div>
         </div>
