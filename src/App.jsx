@@ -24,14 +24,14 @@ function App() {
         </div>
         <div
           style={{
-            width: '98.8vw',
+            width: '99vw',
             height: '100vh',
             background: '#f2f2f2',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'flex-start',
             flexDirection: 'column',
-            marginLeft: '24px'
+            marginLeft: '23px'
           }}
         >
           <ContainerApp>
