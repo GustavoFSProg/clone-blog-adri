@@ -28,7 +28,7 @@ function App() {
           background: '#f2f2f2',
           display: 'flex',
           justifyContent: 'center',
-          // alignItems: 'center',
+          alignItems: 'center',
           flexDirection: 'column'
 
         }}>
