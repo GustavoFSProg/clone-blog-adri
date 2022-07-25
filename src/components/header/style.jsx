@@ -24,6 +24,8 @@ export const FormDois = styled.form`
   display: flex;
   align-items: flex-start;
   justify-content: left;
+    z-index: 9999;
+
 `
 
 export const LinksContainer = styled.div`
@@ -47,6 +49,7 @@ export const Input = styled.input`
     width: 100%;
     height: 2.1rem;
     margin-left: -5px;
+    z-index: 9999;
   }
 `
 
@@ -88,5 +91,8 @@ export const ImgLupa = styled.img`
     align-items: center;
     justify-content: center;
     margin-top: -8px;
+    z-index: 9999;
+    background: green;
+
   }
 `

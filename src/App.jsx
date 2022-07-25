@@ -1,7 +1,8 @@
-import { useState } from 'react'
 import Header from './components/header/Header'
 import Sidebarleft from './components/sidebar-left/sidebar-left'
 import SidebarRight from './components/sidebar-right/sidebarRight'
+import foto1 from './assets/foto1.png'
+import { ContainerApp, ImgBody } from './style'
 
 function App() {
   return (
@@ -20,11 +21,10 @@ function App() {
         <div>
           <Sidebarleft />
         </div>
-        <div
-          style={{ color: 'black', width: '95%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-        >
-          CENTER
-        </div>
+
+        <ContainerApp>
+          <ImgBody src={foto1} alt="foto1" />
+        </ContainerApp>
         <div>
           <SidebarRight />
         </div>
