@@ -71,6 +71,8 @@ export const Button = styled.button`
 
     &:hover {
       /* background: darkgray; */
+    background: none;
+
     }
   }
 `
