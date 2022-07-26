@@ -10,7 +10,7 @@ export const ContainerApp = styled.div`
 
   @media screen and (max-width: 800px) {
     /* margin-top: -34.4rem; */
-    margin-top: 2.2rem;
+    margin-top: 4.2rem;
     width: 97%;
     margin-left: 7px;
   }
