@@ -6,7 +6,7 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -15.5rem;
+  margin-top: -26.5rem;
 
   @media screen and (max-width: 800px) {
     /* margin-top: -34.4rem; */
@@ -28,6 +28,8 @@ export const ImgBody = styled.img`
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 165px;
+    margin-top: -12rem;
+
   }
 `
 export const ImgFace = styled.img`
@@ -48,6 +50,25 @@ export const H1 = styled.h1`
     margin-left: -20px;
   }
 `
+
+export const ContainerWrapper = styled.div`
+  width: 99vw;
+            height: 100%;
+            background: #f2f2f2;
+            /* background: green; */
+            margin-top: 27px;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+  @media screen and (max-width: 700px) {
+               margin-top: 187px;
+
+  }
+`
+
 export const ContainerParagraph = styled.div`
   display: flex;
   width: 89%;

@@ -3,7 +3,7 @@ import Sidebarleft from './components/sidebar-left/sidebar-left'
 import SidebarRight from './components/sidebar-right/sidebarRight'
 import foto1 from './assets/foto1.png'
 import face from './assets/face-icon.png'
-import { ContainerApp, ContainerParagraph, Span, ImgBody, ImgFace, H1 } from './style'
+import { ContainerApp, ContainerParagraph, ContainerWrapper, Span, ImgBody, ImgFace, H1 } from './style'
 
 function App() {
   return (
@@ -23,20 +23,11 @@ function App() {
           <Sidebarleft />
         </div>
 
-        <div
-          style={{
-            width: '99vw',
-            height: '100vh',
-            background: '#f2f2f2',
-            display: 'flex',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
-        >
+        <ContainerWrapper >
           <div
             style={{
-              background: '#f2f2f2',
+              // background: 'blue',
+
               display: 'flex',
               justifyContent: 'center',
               flexDirection: 'column',
@@ -127,7 +118,7 @@ function App() {
               </Span>
             </ContainerParagraph>
           </div>
-        </div>
+        </ContainerWrapper>
 
         <div>
           <SidebarRight />
