@@ -98,7 +98,7 @@ function App() {
             <div
               style={{
                 display: 'flex',
-                width: '86%',
+                width: '84%',
                 alignItems: 'center',
                 justifyContent: 'left',
                 marginLeft: '45px',
