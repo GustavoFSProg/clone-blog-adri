@@ -33,12 +33,12 @@ function SidebarLeft() {
           <p
             style={{ width: '215px', lineHeight: '24px', fontSize: '0.8rem', fontFamily: 'Roboto' }}
           >
-            <h2>DEVIL Place is a community of 881,454 amazing developers</h2>
+            <h2>DEVIL Place is a org of 1000,454 amazing peoples</h2>
           </p>
           <span
             style={{ width: '215px', lineHeight: '21px', fontSize: '1rem', fontFamily: 'Roboto' }}
           >
-            We're a place where coders share, stay up-to-date and grow their careers.
+            We're a build perspectives, stay up-to-date and grow their lives.
           </span>
           <div style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
             <Button style={{}}>CREATE ACCOUNT</Button>
