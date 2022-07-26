@@ -46,7 +46,7 @@ export const H1 = styled.h1`
   font-size: 2rem;
 
   @media screen and (max-width: 800px) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-left: -20px;
   }
 `
@@ -78,7 +78,7 @@ export const ContainerParagraph = styled.div`
 
   @media screen and (max-width: 700px) {
     margin-left: 25px;
-    width: 88%;
+    width: 85%;
   }
 `
 export const Span = styled.span`
