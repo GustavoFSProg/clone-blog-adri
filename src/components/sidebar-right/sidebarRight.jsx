@@ -101,6 +101,21 @@ function SidebarRight() {
           a page when looking at its layout.
         </p>
       </div>
+
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'left' }}>
+        <p
+          style={{
+            marginLeft: '20px',
+            fontFamily: 'Roboto',
+            fontSize: '15px',
+            letterSpacing: '1px',
+            width: '80%',
+            color: '#333333',
+          }}
+        >
+          Kinsta is looking for technical writers and deves
+        </p>
+      </div>
     </Container>
   )
 }
