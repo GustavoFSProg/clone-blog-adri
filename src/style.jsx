@@ -56,7 +56,7 @@ export const ContainerWrapper = styled.div`
             height: 100%;
             background: #f2f2f2;
             /* background: green; */
-            margin-top: 100px;
+            margin-top: 180px;
 
             display: flex;
             justify-content: center;
