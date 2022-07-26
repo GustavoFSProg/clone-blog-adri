@@ -6,11 +6,11 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -15rem;
+  margin-top: -15.5rem;
 
   @media screen and (max-width: 800px) {
     /* margin-top: -34.4rem; */
-    margin-top: 1rem;
+    margin-top: 2.2rem;
     width: 97%;
     margin-left: 7px;
   }
