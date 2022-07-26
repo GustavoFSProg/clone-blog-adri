@@ -91,7 +91,7 @@ export const ImgLupa = styled.img`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
     z-index: 9999;
   }
 `
