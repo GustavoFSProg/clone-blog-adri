@@ -3,7 +3,7 @@ import Sidebarleft from './components/sidebar-left/sidebar-left'
 import SidebarRight from './components/sidebar-right/sidebarRight'
 import foto1 from './assets/foto1.png'
 import face from './assets/face-icon.png'
-import { ContainerApp, ImgBody, ImgFace, H1 } from './style'
+import { ContainerApp, ContainerParagraph, Span, ImgBody, ImgFace, H1 } from './style'
 
 function App() {
   return (
@@ -113,8 +113,19 @@ function App() {
                 marginLeft: '45px',
               }}
             >
-              <H1 >DEVELOPMENT WITH REACT-JS</H1>
+              <H1>DEVELOPMENT WITH REACT-JS</H1>
             </div>
+
+            <ContainerParagraph>
+
+
+              <Span >
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.The point of using Lorem Ipsum is that
+                it has a more - or - less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English.
+              </Span>
+            </ContainerParagraph>
           </div>
         </div>
 

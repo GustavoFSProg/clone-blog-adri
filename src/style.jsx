@@ -43,7 +43,30 @@ export const H1 = styled.h1`
   font-size: 2rem;
 
   @media screen and (max-width: 800px) {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
+    margin-left: -20px;
+  }
+`
+export const ContainerParagraph = styled.div`
+  display: flex;
+  width: 89%;
+  align-items: center;
+  justify-content: left;
+  margin-left: 45px;
+
+  @media screen and (max-width: 700px) {
+    margin-left: 25px;
+    width: 88%;
+  }
+`
+export const Span = styled.span`
+  font-size: 1.3rem;
+  line-height: 25px;
+  color: #333333;
+  text-indent: 15px;
+
+  @media screen and (max-width: 670px){
+  /* font-size: 1.4rem; */
 
   }
 `
