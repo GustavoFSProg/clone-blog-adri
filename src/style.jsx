@@ -60,10 +60,12 @@ export const ContainerParagraph = styled.div`
   }
 `
 export const Span = styled.span`
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 25px;
   color: #333333;
   text-indent: 15px;
+  font-family: Roboto;
+
 
   @media screen and (max-width: 670px){
   /* font-size: 1.4rem; */
