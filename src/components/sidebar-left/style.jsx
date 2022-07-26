@@ -27,9 +27,9 @@ export const Button = styled.button`
   transition: ease 0.6s;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     background: #0052cc;
-    color: white
+    color: white;
   }
 `
 export const ButtonDois = styled.button`
@@ -45,9 +45,18 @@ export const ButtonDois = styled.button`
   transition: ease 0.6s;
   cursor: pointer;
 
-
-  &:hover{
+  &:hover {
     background: gray;
-    color: white
+    color: white;
   }
+`
+
+export const DivLinks = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  /* background: green; */
+  padding-left: 13px;
+  margin-top: 20px;
 `

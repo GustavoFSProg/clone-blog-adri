@@ -1,9 +1,27 @@
-import { Container, Button, ButtonDois } from './style'
+import { Container, DivLinks, Button, ButtonDois } from './style'
+import { FcAssistant } from 'react-icons/fc'
+import { FcBriefcase } from 'react-icons/fc'
+import { FcBiomass } from 'react-icons/fc'
+import { FcBusinessman } from 'react-icons/fc'
+import { FcCompactCamera } from 'react-icons/fc'
+import { FcGraduationCap } from 'react-icons/fc'
+import { FcFaq } from 'react-icons/fc'
+import { FcLike } from 'react-icons/fc'
+import { FcNook } from 'react-icons/fc'
 
 function SidebarLeft() {
   return (
     <Container>
-      <div style={{ ButtonDois, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div
+        style={{
+          ButtonDois,
+          display: 'flex',
+          flexDirection: 'column',
+
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
         <div
           style={{
             display: 'flex',
@@ -28,6 +46,154 @@ function SidebarLeft() {
             <ButtonDois>Login</ButtonDois>
           </div>
         </div>
+        <DivLinks>
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcAssistant size="23" />
+              <span
+                style={{ color: '#404040', marginLeft: '8px', fontSize: '17px', fontFamily: 'Roboto' }}
+              >
+                Home
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcBriefcase size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Cadastro
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcBiomass size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                User
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcBusinessman size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Profile
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcCompactCamera size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Account
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcLike size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Liked
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcGraduationCap size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                About
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcFaq size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Budget
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcNook size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Calc
+              </span>
+            </div>
+          </a>
+        </DivLinks>
       </div>
     </Container>
   )
