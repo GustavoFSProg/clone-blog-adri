@@ -56,7 +56,7 @@ export const ContainerWrapper = styled.div`
             height: 100%;
             background: #f2f2f2;
             /* background: green; */
-            margin-top: 27px;
+            margin-top: 13px;
 
             display: flex;
             justify-content: center;
@@ -64,7 +64,7 @@ export const ContainerWrapper = styled.div`
             align-items: center;
 
   @media screen and (max-width: 700px) {
-               margin-top: 187px;
+               margin-top: 184px;
 
   }
 `
