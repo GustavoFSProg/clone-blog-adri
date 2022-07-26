@@ -47,7 +47,7 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 800px) {
     font-size: 1.1rem;
-    margin-left: -20px;
+    margin-left: -26px;
   }
 `
 
@@ -56,7 +56,7 @@ export const ContainerWrapper = styled.div`
             height: 100%;
             background: #f2f2f2;
             /* background: green; */
-            margin-top: 180px;
+            margin-top: 178px;
 
             display: flex;
             justify-content: center;
