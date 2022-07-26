@@ -24,8 +24,7 @@ export const FormDois = styled.form`
   display: flex;
   align-items: flex-start;
   justify-content: left;
-    z-index: 9999;
-
+  z-index: 9999;
 `
 
 export const LinksContainer = styled.div`
@@ -51,7 +50,6 @@ export const Input = styled.input`
     margin-left: 0px;
     z-index: 9999;
     margin-top: 10px;
-    
   }
 `
 
@@ -72,7 +70,6 @@ export const Button = styled.button`
 
     &:hover {
       /* background: darkgray; */
-
     }
   }
 `
@@ -94,8 +91,7 @@ export const ImgLupa = styled.img`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -6px;
+    margin-top: 10px;
     z-index: 9999;
-
   }
 `
