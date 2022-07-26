@@ -13,6 +13,7 @@ export const ContainerApp = styled.div`
     margin-top: 4.2rem;
     width: 97%;
     margin-left: 7px;
+    height: auto;
   }
 `
 export const ImgBody = styled.img`
