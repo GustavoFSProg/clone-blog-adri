@@ -8,6 +8,10 @@ import { FcGraduationCap } from 'react-icons/fc'
 import { FcFaq } from 'react-icons/fc'
 import { FcLike } from 'react-icons/fc'
 import { FcNook } from 'react-icons/fc'
+import { FcCalendar } from 'react-icons/fc'
+import { FcBinoculars } from 'react-icons/fc'
+
+
 
 function SidebarLeft() {
   return (
@@ -190,6 +194,40 @@ function SidebarLeft() {
                 }}
               >
                 Calc
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcCalendar size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Calendar
+              </span>
+            </div>
+          </a>
+
+          <a href="#" style={{ textDecoration: 'none', marginBottom: '11px', marginTop: '10px' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <FcBinoculars size="23" />
+              <span
+                style={{
+                  color: '#404040',
+                  marginLeft: '8px',
+                  fontSize: '17px',
+                  marginTop: '3px',
+                  fontFamily: 'Roboto',
+                }}
+              >
+                Lookup
               </span>
             </div>
           </a>

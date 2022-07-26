@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 99vh;
   border: solid 1px #d9d9d9;
   margin-left: 4rem;
-  margin-top: 20px;
+  margin-top: 30px;
 
   @media screen and (max-width: 850px) {
     display: none;
