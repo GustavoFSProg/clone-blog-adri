@@ -44,6 +44,7 @@ export const ImgFace = styled.img`
 
 export const H1 = styled.h1`
   font-size: 2rem;
+  margin-top: 23px;
 
   @media screen and (max-width: 800px) {
     font-size: 1.1rem;
