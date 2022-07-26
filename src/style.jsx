@@ -6,11 +6,11 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -24rem;
+  margin-top: -4rem;
 
   @media screen and (max-width: 800px) {
     /* margin-top: -34.4rem; */
-    margin-top: -11rem;
+    margin-top: -1rem;
     width: 97%;
     margin-left: 7px;
   }
@@ -51,7 +51,7 @@ export const ContainerParagraph = styled.div`
   display: flex;
   width: 89%;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin-left: 45px;
 
   @media screen and (max-width: 700px) {
