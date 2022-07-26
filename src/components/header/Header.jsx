@@ -73,7 +73,7 @@ function Header() {
           <BsSearch
             onMouseLeave={() => handleDismissButtonClicked()}
             onMouseEnter={() => handleLike()}
-            size="26" color="white" style={{ marginLeft: '8px' }} />
+            size="26" color="white" style={{ marginLeft: '8px', marginTop: '11px' }} />
         </div>
       </FormDois>
     </Container>
