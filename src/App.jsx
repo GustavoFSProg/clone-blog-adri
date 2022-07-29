@@ -90,7 +90,7 @@ function App() {
                       alignItems: 'flex-start',
                       justifyContent: 'left',
                       marginLeft: '17px',
-                      marginTop: '51px',
+                      marginTop: '31px',
                     }}
                   >
                     <div
