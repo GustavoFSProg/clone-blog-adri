@@ -66,7 +66,7 @@ export const ContainerWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 700px) {
-    margin-top: 14rem;
+    margin-top: 15rem;
   }
 `
 
@@ -79,7 +79,7 @@ export const AutorContainer = styled.div`
   margin-top: 45px;
 
   @media screen and (max-width: 700px) {
-    margin-top: 26px;
+    margin-top: 18px;
   }
 `
 

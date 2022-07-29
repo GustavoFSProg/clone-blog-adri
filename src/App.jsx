@@ -85,9 +85,7 @@ function App() {
                     <ImgBody src={item.image} alt="foto1" />
                   </ContainerApp>
                   <AutorContainer
-                    style={{
 
-                    }}
                   >
                     <div
                       style={{
