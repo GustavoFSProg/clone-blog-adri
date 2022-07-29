@@ -34,7 +34,7 @@ export const FormDois = styled.form`
   align-items: flex-start;
   justify-content: left;
   z-index: 9999;
-  background: black  blur(90px) saturate(90%);
+  background: black  blur(90px);
  /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
  /* backdrop-filter: blur(90px) saturate(90%); */
   width: 65%;
