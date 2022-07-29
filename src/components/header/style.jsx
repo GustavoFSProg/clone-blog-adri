@@ -36,7 +36,7 @@ export const FormDois = styled.form`
   z-index: 9999;
   /* background: black; */
  /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
- backdrop-filter: blur(40px) saturate(10%);
+ backdrop-filter: blur(90px) saturate(90%);
   width: 65%;
   padding-left: 10px ;
   padding-right: 3px ;
