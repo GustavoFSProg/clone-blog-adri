@@ -50,7 +50,7 @@ function App() {
         <div
           style={{
             width: '98.8vw',
-            height: '100vh',
+            height: '100%',
             background: '#f2f2f2',
             display: 'flex',
             justifyContent: 'center',
