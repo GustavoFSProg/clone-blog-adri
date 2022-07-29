@@ -12,6 +12,7 @@ import {
   ImgBody,
   ImgFace,
   H1,
+  AutorContainer
 } from './style'
 import { useEffect, useState } from 'react'
 
@@ -83,14 +84,9 @@ function App() {
                   <ContainerApp>
                     <ImgBody src={item.image} alt="foto1" />
                   </ContainerApp>
-                  <div
+                  <AutorContainer
                     style={{
-                      display: 'flex',
-                      flexDirection: 'row',
-                      alignItems: 'flex-start',
-                      justifyContent: 'left',
-                      marginLeft: '17px',
-                      marginTop: '31px',
+
                     }}
                   >
                     <div
@@ -138,7 +134,7 @@ function App() {
                         {item.createdAt}
                       </span>
                     </div>
-                  </div>
+                  </AutorContainer>
                   <div
                     style={{
                       display: 'flex',

@@ -44,9 +44,9 @@ export const ImgFace = styled.img`
 export const H1 = styled.h1`
   font-size: 2rem;
   margin-top: 23px;
-   display: flex;
-   align-items: center ;
-   justify-content: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 800px) {
     font-size: 1.1rem;
@@ -59,15 +59,27 @@ export const ContainerWrapper = styled.div`
   height: 100%;
   background: #f2f2f2;
   /* background: green; */
- margin-top: 16rem;
+  margin-top: 16rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   @media screen and (max-width: 700px) {
-     margin-top: 14rem,
+    margin-top: 14rem;
+  }
+`
 
+export const AutorContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 17px;
+  margin-top: 45px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 26px;
   }
 `
 
