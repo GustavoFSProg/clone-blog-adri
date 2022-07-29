@@ -57,7 +57,8 @@ function App() {
               justifyContent: 'center',
               flexDirection: 'column',
               alignItems: 'flex-start',
-              marginBottom: '18rem'
+              // marginBottom: '28rem',
+              // marginTop: '18.5rem',
 
               // marginLeft: '13px'
             }}
