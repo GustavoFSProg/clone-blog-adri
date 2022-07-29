@@ -59,15 +59,15 @@ export const ContainerWrapper = styled.div`
   height: 100%;
   background: #f2f2f2;
   /* background: green; */
-  margin-top: 178px;
-
+ margin-top: 6rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   @media screen and (max-width: 700px) {
-    margin-top: 184px;
+     margin-top: 6rem,
+
   }
 `
 
