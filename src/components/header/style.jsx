@@ -8,6 +8,15 @@ export const Container = styled.div`
   width: 100%;
   height: 3.6rem;
   border-bottom: solid 1px #b3b3b3;
+  padding-top: 63px;
+  padding-bottom: 3px;
+
+
+  @media screen and (max-width: 800px) {
+      padding-bottom: 12px;
+
+  }
+
 `
 export const Form = styled.form`
   display: flex;
@@ -25,6 +34,13 @@ export const FormDois = styled.form`
   align-items: flex-start;
   justify-content: left;
   z-index: 9999;
+  /* background: black; */
+ /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
+ backdrop-filter: blur(40px) saturate(10%);
+  width: 65%;
+  padding-left: 10px ;
+  padding-right: 3px ;
+  padding-bottom: 10px ;
 `
 
 export const LinksContainer = styled.div`

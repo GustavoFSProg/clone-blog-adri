@@ -34,7 +34,6 @@ function App() {
   }, [])
   return (
     <>
-      <Header />
       <div
         style={{
           width: '98.8vw',
@@ -43,8 +42,23 @@ function App() {
           display: 'flex',
           justifyContent: 'space-around',
           alignItems: 'center',
+          flexDirection: 'column',
+
         }}
       >
+        <Header />
+        <div
+          style={{
+            width: '98.8vw',
+            height: '100vh',
+            background: '#f2f2f2',
+            display: 'flex',
+            justifyContent: 'space-around',
+            alignItems: 'center',
+            flexDirection: 'row',
+
+          }}
+        >
         <div>
           <Sidebarleft />
         </div>
@@ -156,6 +170,7 @@ function App() {
 
         <div>
           <SidebarRight />
+        </div>
         </div>
       </div>
     </>
