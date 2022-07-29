@@ -58,7 +58,7 @@ function App() {
               flexDirection: 'column',
               alignItems: 'flex-start',
               // marginBottom: '28rem',
-              // marginTop: '18.5rem',
+              marginTop: '6rem',
 
               // marginLeft: '13px'
             }}
