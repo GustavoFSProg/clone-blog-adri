@@ -53,7 +53,7 @@ function App() {
             height: '100vh',
             background: '#f2f2f2',
             display: 'flex',
-            justifyContent: 'space-around',
+            justifyContent: 'center',
             alignItems: 'center',
             flexDirection: 'row',
 
@@ -69,7 +69,7 @@ function App() {
               // background: 'blue',
 
               display: 'flex',
-              justifyContent: 'center',
+                justifyContent: 'top',
               flexDirection: 'column',
               alignItems: 'flex-start',
 
