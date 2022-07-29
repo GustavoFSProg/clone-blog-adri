@@ -61,14 +61,14 @@ export const ContainerWrapper = styled.div`
   height: auto;
   background: #f2f2f2;
   /* background: green; */
-  margin-top: 19rem;
+  margin-top: 24rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   @media screen and (max-width: 700px) {
-    margin-top: 24rem;
+    margin-top: 28rem;
   }
 `
 
