@@ -6,6 +6,9 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+       height: 100vh;
+
+
   /* margin-top: -26.5rem; */
 
   @media screen and (max-width: 800px) {
@@ -13,7 +16,7 @@ export const ContainerApp = styled.div`
     margin-top: 11rem;
     width: 97%;
     margin-left: 7px;
-    height: auto;
+    height: 100vh;
   }
 `
 export const ImgBody = styled.img`
