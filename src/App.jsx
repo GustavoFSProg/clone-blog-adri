@@ -86,6 +86,7 @@ function App() {
                     justifyContent: 'center',
                     flexDirection: 'column',
                     alignItems: 'flex-start',
+                    marginBottom: '60px'
 
 
 
