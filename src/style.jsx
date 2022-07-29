@@ -6,11 +6,11 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -26.5rem;
+  /* margin-top: -26.5rem; */
 
   @media screen and (max-width: 800px) {
     /* margin-top: -34.4rem; */
-    margin-top: 4.2rem;
+    margin-top: 11rem;
     width: 97%;
     margin-left: 7px;
     height: auto;
@@ -44,6 +44,9 @@ export const ImgFace = styled.img`
 export const H1 = styled.h1`
   font-size: 2rem;
   margin-top: 23px;
+   display: flex;
+   align-items: center ;
+   justify-content: center ;
 
   @media screen and (max-width: 800px) {
     font-size: 1.1rem;
