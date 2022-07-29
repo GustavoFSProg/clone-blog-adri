@@ -6,7 +6,6 @@ export const ContainerApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-       height: 100vh;
 
 
   /* margin-top: -26.5rem; */
@@ -59,7 +58,7 @@ export const H1 = styled.h1`
 
 export const ContainerWrapper = styled.div`
   width: 99vw;
-  height: 100%;
+  height: auto;
   background: #f2f2f2;
   /* background: green; */
   margin-top: 16rem;
