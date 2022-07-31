@@ -8,8 +8,8 @@ export const Container = styled.div`
   width: 100%;
   height: 3.6rem;
   border-bottom: solid 1px #b3b3b3;
-  padding-top: 63px;
-  padding-bottom: 3px;
+  padding-top: 4px;
+  padding-bottom: 3.2px;
 
 
   @media screen and (max-width: 800px) {

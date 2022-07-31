@@ -58,17 +58,17 @@ export const H1 = styled.h1`
 
 export const ContainerWrapper = styled.div`
   width: 99vw;
-  height: auto;
+  height: 100vh;
   background: #f2f2f2;
   /* background: green; */
-  margin-top: 26.5rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   @media screen and (max-width: 700px) {
-    margin-top: 32rem;
+    margin-top: 8rem;
   }
 `
 

@@ -34,6 +34,8 @@ function App() {
   }, [])
   return (
     <>
+      <Header />
+
       <div
         style={{
           width: '98.8vw',
@@ -46,7 +48,6 @@ function App() {
 
         }}
       >
-        <Header />
         <div
           style={{
             width: '98.8vw',
@@ -69,9 +70,12 @@ function App() {
               // background: 'blue',
 
               display: 'flex',
-                justifyContent: 'top',
+                // justifyContent: 'top',
               flexDirection: 'column',
-              alignItems: 'flex-start',
+                alignItems: 'flex-start',
+                marginTop: '87rem',
+
+                // alignItems: 'flex-start',
 
               // marginLeft: '13px'
             }}
