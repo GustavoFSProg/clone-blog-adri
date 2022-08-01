@@ -34,7 +34,7 @@ export const FormDois = styled.form`
   align-items: flex-start;
   justify-content: left;
   z-index: 9999;
-   background: linear-gradient(to right bottom, #8c8c8c 55%, #4d4d4d 45%);
+   background: linear-gradient(to right top, #8c8c8c 55%, #4d4d4d 45%);
   /* background:  black; */
  /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
  /* backdrop-filter: blur(90px) saturate(90%); */
