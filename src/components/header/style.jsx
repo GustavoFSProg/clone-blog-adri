@@ -34,7 +34,7 @@ export const FormDois = styled.form`
   align-items: flex-start;
   justify-content: left;
   z-index: 9999;
-  background: black;
+  background:  black;
  /* backdrop-filter: blur(20px) saturate(120%) contrast(200%); */
  /* backdrop-filter: blur(90px) saturate(90%); */
   width: 80%;
@@ -66,6 +66,7 @@ export const Input = styled.input`
     margin-left: 0px;
     z-index: 9999;
     margin-top: 10px;
+    /* filter: blur(5px); */
   }
 `
 
