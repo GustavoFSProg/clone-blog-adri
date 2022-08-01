@@ -61,7 +61,7 @@ export const ContainerWrapper = styled.div`
   height: 100vh;
   background: #f2f2f2;
   /* background: green; */
-  margin-top: 6rem;
+  margin-top: 9rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
