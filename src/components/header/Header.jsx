@@ -3,6 +3,7 @@ import logo from '../../assets/logo.png'
 import { BsSearch } from 'react-icons/bs'
 import { useState } from 'react'
 import MenuIcon from '@material-ui/icons/Menu'
+import { Link } from 'react-router-dom'
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState('none')
@@ -43,7 +44,20 @@ function Header() {
       </Button>
 
       <LinksContainer>
-        <h3>HOME</h3>
+        <div style={{ marginLeft: '40px' }}>
+          <Link style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black' }} to="/">
+            HOME
+          </Link>
+        </div>
+
+        <div style={{ marginLeft: '35px' }}>
+          <Link
+            style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
+            to="/register"
+          >
+            CADASTRO
+          </Link>
+        </div>
       </LinksContainer>
 
       <FormDois
@@ -73,7 +87,10 @@ function Header() {
           <BsSearch
             onMouseLeave={() => handleDismissButtonClicked()}
             onMouseEnter={() => handleLike()}
-            size="26" color="white" style={{ marginLeft: '8px', marginTop: '11px' }} />
+            size="26"
+            color="white"
+            style={{ marginLeft: '8px', marginTop: '11px' }}
+          />
         </div>
       </FormDois>
     </Container>
