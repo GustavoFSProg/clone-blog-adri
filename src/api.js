@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://blog-deva.herokuapp.com/'
+  baseURL: 'https://blog-devs-api.herokuapp.com/'
 })
 
 export default api
